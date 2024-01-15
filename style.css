@@ -1,5 +1,115 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #04011C;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.width {
+    width: 1360px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.text {
+    width: 60%;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.logo h1 {
+    background: linear-gradient(104deg, #DF1CFF -25.59%, #EA0070 138%);
+    font-size: 28px;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.43);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 44px;
+}
+
+.menu ul li:first-child>a {
+    color: rgb(255, 255, 255);
+}
+
+.button button {
+    padding: 12px 40px;
+    border-radius: 8px;
+    border: 1.5px solid #E50AA7;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 16px 80px 0px rgba(208, 17, 204, 0.15);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.banner {
+    padding: 100px 0;
+}
+
+.text {
+    width: 134%;
+}
+
+.text h1 {
+    color: #FFF;
+    font-size: 55.737px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.text p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.text i {
+    color: #1EE0E1;
+    font-size: 55.737px;
+    font-weight: 300;
+}
+
+.text button {
+    padding: 12px 40px;
+    border-radius: 8px;
+    background:linear-gradient(104deg, #DF1CFF -25.59%, #EA0070 138%);
+    box-shadow: 0px 9px 100px 0px rgba(208, 17, 204, 0.35);
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.img {
+    text-align: right;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 50%;
 }
