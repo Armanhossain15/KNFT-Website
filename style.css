@@ -15,7 +15,7 @@ body {
 }
 
 .width {
-    width: 1360px;
+    width: 1220px;
     margin: auto;
 }
 
@@ -113,3 +113,35 @@ body {
     width: 100%;
     border-radius: 50%;
 }
+
+/* eye */
+.eye{
+    margin-top: -55px;
+}
+.eye-heading{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.eye-heading img{
+    margin-right: 16px;
+}
+.div1{
+    
+    margin-right: 64px;
+}
+.div1 p{
+    color: rgba(255, 255, 255,0.8);
+    font-style: 20px;
+    font-weight: 400;
+}
+.div1 h1{
+    color: #fff;
+    font-style: 31px;
+    font-weight: 700;
+}
+.importent-info{
+    margin-top: 37px;
+    display: flex;
+}
+/* eye */
